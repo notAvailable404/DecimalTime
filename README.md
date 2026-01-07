@@ -31,6 +31,10 @@ Help:<br>
 Live clock:<br>
 <img width="941" height="508" alt="live-watch-clock" src="https://github.com/user-attachments/assets/52eb9124-2b58-4989-816d-e5f3d4f175f1" />
 
+Web clock:<br>
+<img width="1896" height="1030" alt="screenshot-2026-01-07_19-08-44" src="https://github.com/user-attachments/assets/f0ca7439-abe0-464a-9e10-894587d9bb3f" />
+
+
 Unit tests pass:<br>
 <img width="941" height="508" alt="unit-tests-pass" src="https://github.com/user-attachments/assets/93ecac63-0581-4674-aa2a-819c53f3db69" />
 <br>
