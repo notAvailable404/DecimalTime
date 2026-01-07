@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decimal Time Live</title>
+    <style>
+        body { font-family: monospace; display: flex; justify-content: center; align-items: center; height: 100vh; background: #222; color: #0f0; }
+        .clock { text-align: center; }
+        .huge { font-size: 4rem; font-weight: bold; }
+        .med { font-size: 1.5rem; color: #8c8; margin-top: 10px;}
+        .lbl { font-size: 0.8rem; color: #666; }
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="lbl">EARTH DECIMAL TIME</div>
+        <div id="pct" class="huge">00.0000</div>
+        <div id="comp" class="med">MC 00 . kC 0 . C 0</div>
+    </div>
+    <script>
+        function update() {
+            // Earth: 1 AC = 86400 seconds
+            const now = new Date();
+            // Get UTC seconds into day
+            const ms = now.getUTCHours() * 3600000 + now.getUTCMinutes() * 60000 + now.getUTCSeconds() * 1000 + now.getUTCMilliseconds();
+            const frac = ms / 86400000; 
+            
+            // Format Percent
+            document.getElementById('pct').innerText = (frac * 100).toFixed(4);
+            
+            // Composite
+            const totalC = Math.floor(frac * 10000);
+            const mc = Math.floor(totalC / 100);
+            const rem = totalC % 100;
+            const kc = Math.floor(rem / 10);
+            const c = rem % 10;
+            
+            document.getElementById('comp').innerText = `MC ${mc.toString().padStart(2,'0')} . kC ${kc} . C ${c}`;
+            
+            requestAnimationFrame(update);
+        }
+        update();
+    </script>
+</body>
+</html>
