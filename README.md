@@ -22,3 +22,16 @@ decimal-time demo
 # Run Tests
 pytest
 ```
+Demo:
+<img width="941" height="508" alt="demo" src="https://github.com/user-attachments/assets/040af6e5-a877-42c9-97e8-893f74859d8b" />
+
+Help:
+<img width="941" height="508" alt="help" src="https://github.com/user-attachments/assets/384becd8-a5cf-4f97-82de-0ad492433e42" />
+
+Live clock:
+<img width="941" height="508" alt="live-watch-clock" src="https://github.com/user-attachments/assets/52eb9124-2b58-4989-816d-e5f3d4f175f1" />
+
+Unit tests pass:
+<img width="941" height="508" alt="unit-tests-pass" src="https://github.com/user-attachments/assets/93ecac63-0581-4674-aa2a-819c53f3db69" />
+
+<img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/f3068459-0c00-4052-a3be-22c1af76ec43" />
