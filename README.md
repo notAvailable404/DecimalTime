@@ -7,6 +7,9 @@ A production-ready reference implementation for **Decimal Time** (anchored to th
 This project demonstrates a mathematically pure base-10 time system suitable for scientific simulation and off-world colonies (e.g., Mars), including a deterministic leap-year strategy for arbitrary orbital periods.
 
 > This software is provided AS-IS. The author will not maintain this repository after release. This project is purely demonstrative; see DECIMAL_TIME.md for the formal specification.
+## Disclaimer
+> This project is experimental and provided for educational/demo purposes only. It is **not** intended for consumer or business production use. Use at your own risk — the authors are not responsible for damages, loss of data, or other issues arising from use of this code. See LICENSE for legal terms.
+
 
 ## Quick Start
 
